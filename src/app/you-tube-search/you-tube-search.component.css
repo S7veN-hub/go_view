@@ -42,4 +42,9 @@ footer {
         flex-flow: row wrap;
         justify-content: space-evenly;
     }
+
+    .result {
+        width: 40%;
+        margin: 5px;
+    }
 }

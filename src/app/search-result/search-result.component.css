@@ -59,10 +59,17 @@ button a:hover {
     .data-box .result-description {
         font-weight: 600;
         margin-top: 10px;
+        display: none;
     }
 }
 
 @media (max-width: 700px) {
+    .data-box .result-description {
+        font-weight: 600;
+        margin-top: 10px;
+        display: none;
+    }
+
     .thumbnail {
         height: 40%;
     }
