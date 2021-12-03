@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(189, 189, 189);
+    box-shadow: 0px 10px 15px rgb(124, 124, 124);
+}
+
+h1 {
+    margin: 0;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.loading-container img {
+    width: 5%;
+}
+
+.results {
+    padding: 20px 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.result {
+    width: 30%;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(189, 189, 189);
+    box-shadow: 0px -10px 15px rgb(124, 124, 124);
+}

@@ -1,0 +1,12 @@
+<header>
+    <h1>GoView</h1>
+    <app-search-box (results)="updateResults($event)" (loading)="loading = $event"></app-search-box>
+</header>
+
+<div class="loading-container">
+    <img src="../../assets/gifs/loading-buffering.gif" alt="loading-gif" *ngIf="loading">
+</div>
+
+<div class="results">
+    <app-search-result class="result" *ngFor="let result of results | async" [result]="result"></app-search-result>
+</div>

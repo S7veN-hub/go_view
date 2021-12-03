@@ -1,0 +1,10 @@
+.input-container {
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 40px;
+    margin: 30px 0;
+    font-size: large;
+}
